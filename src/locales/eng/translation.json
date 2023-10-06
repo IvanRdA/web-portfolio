@@ -10,5 +10,11 @@
     "ContactNav": "Contact",
     "HomeName": "IVAN RODRIGUEZ",
     "HomeJobRole": "Fullstack Developer",
-    "DownloadResumeButton": "DOWNLOAD RESUME"
+    "DownloadResumeButton": "DOWNLOAD RESUME",
+    "BriefDescription": {
+        "Title": "A PIECE OF ME",
+        "ContentOne": "I've been working as Store Manager the last seven years and fell in love with Data Analysis and Business Manager Tools. That's why I started to learn coding.",
+        "ContentTwo": "Love challenges and problem solving. Federated chess player and strategy or rol gameplayer.", 
+        "ContentThree": "Looking for my first full-time job as Fullstack Developer."
+    }
 }

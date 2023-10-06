@@ -10,5 +10,11 @@
     "ContactNav": "Contacto",
     "HomeName": "IVAN RODRIGUEZ",
     "HomeJobRole": "Desarrollador Fullstack",
-    "DownloadResumeButton": "DESCARGAR CV"
+    "DownloadResumeButton": "DESCARGAR CV",
+    "BriefDescription": {
+        "Title": "UN POCO SOBRE MI",
+        "ContentOne": "Llevo los ultimos siete anyos trabajando como Gerente de Tienda, donde me enamore de el Analisis de Datos y las Herramientas de Gestion de Negocio. Por eso empece a aprender programacion",
+        "ContentTwo": "Me encantan los desafios y resolver problemas. Jugador de ajedrez federado y freak de los juegos de estrategia y de rol.", 
+        "ContentThree": "Buscando entrar al sector desarrollo con mi primer empleo como desarrollador Fullstack."
+    }
 }
