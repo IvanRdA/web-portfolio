@@ -4,7 +4,6 @@ import { useState } from 'react'
 import i18n from '@/i18n/index'
 import EnglishFlag from './EnglishFlag'
 import SpanishFlag from './SpanishFlag'
-import { calculateSizeAdjustValues } from 'next/dist/server/font-utils'
 
 export default function LanguageSelector() {
   const [currentLanguage, setCurrentLanguage] = useState(
