@@ -4,7 +4,7 @@ export default function StackLogosBox() {
   return (
     <div
       id='logos-box'
-      className='flex flex-row gap-4 bg-[#ffd60a] p-2'>
+      className='flex flex-row gap-4 bg-[#ffd60a] p-3 rounded-tr-lg rounded-bl-lg'>
       <Image
         src='/logos/mongodb.png'
         alt='MongoDB logo'

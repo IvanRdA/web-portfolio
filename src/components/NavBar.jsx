@@ -17,13 +17,6 @@ export default function NavBar() {
         </li>
         <li className='hover:scale-110 hover:text-reactBlue transition-all duration-200 ease-in-out'>
           <a
-            href='#AboutPage'
-            rel='nofollow'>
-            {t('AboutNav')}
-          </a>
-        </li>
-        <li className='hover:scale-110 hover:text-reactBlue transition-all duration-200 ease-in-out'>
-          <a
             href='#SkillsPage'
             rel='nofollow'>
             {t('SkillsNav')}
