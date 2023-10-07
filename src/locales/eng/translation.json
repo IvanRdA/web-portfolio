@@ -21,8 +21,10 @@
     "Skills": "skills",
     "Projects": "projects",
     "SkillsFilter": {
-        "SectionTitle": "Search or filter skills",
+        "SectionTitle": "Search skills by name or by type",
         "byName": "by Name",
-        "byType": "by Type"
+        "byType": "by Type",
+        "SmallIsName": "Search by technology name. e.g: JavaScript, NodeJS...",
+        "SmallIsType": "Search by role of technology. e.g: backend, frontend..."
     }
 }

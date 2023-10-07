@@ -21,8 +21,10 @@
     "Skills": "habilidades",
     "Projects": "proyectos",
     "SkillsFilter": {
-        "SectionTitle": "Busque o filtre habilidades",
+        "SectionTitle": "Busque habilidades por nombre o enfoque",
         "byName": "por Nombre",
-        "byType": "por Tipo"
+        "byType": "por Tipo",
+        "SmallIsName": "Busque por el nombre de la tecnologia. ej: JavaScript, NodeJS...",
+        "SmallIsType": "Busque por el enfoque de la tecnologia. ej: backend, frontend..."
     }
 }

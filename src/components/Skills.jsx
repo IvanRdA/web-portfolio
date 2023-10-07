@@ -36,12 +36,14 @@ export default function Skills() {
     <article
       id='SkillsPage'
       className='h-[100vh] w-[100vw] snap-center m-auto flex flex-row md:flex-col justify-center items-center bg-gradient-to-r from-JSYellow to-darkJSYellow text-black'>
-      <h1 className='font-MontserratBlack text-2xl'>{t('SkillsTitle')}</h1>
-      <div className='h-[100vh] w-[70vw] bg-white text-black font-MontserratRegular text-sm flex flex-col justify-center items-center'>
+      <div className='h-[100vh] w-[70vw] bg-white text-black font-MontserratRegular text-sm flex flex-col justify-center items-center gap-2'>
+        <h1 className='font-MontserratBlack text-2xl text-black'>
+          {t('SkillsTitle')}
+        </h1>
         <search
           role='search'
           className='bg-reactBlue w-[100%] text-center p-4'>
-          <h4 className='font-MontserratBlack'>
+          <h4 className='font-MontserratBlack text-white text-lg'>
             {t('SkillsFilter.SectionTitle')}
           </h4>
           <select
@@ -55,6 +57,11 @@ export default function Skills() {
             onChange={handleSearch}
             value={search}
           />
+          <small className='font-MontserratRegular text-white'>
+            {filterType === 'name'
+              ? t('SkillsFilter.SmallIsName')
+              : t('SkillsFilter.SmallIsType')}
+          </small>
         </search>
         <main>
           <ul>
