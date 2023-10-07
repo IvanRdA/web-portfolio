@@ -13,8 +13,16 @@
     "DownloadResumeButton": "DOWNLOAD RESUME",
     "BriefDescription": {
         "Title": "A PIECE OF ME",
-        "ContentOne": "I've been working as Store Manager the last seven years and fell in love with Data Analysis and Business Manager Tools. That's why I started to learn coding.",
-        "ContentTwo": "Love challenges and problem solving. Federated chess player and strategy or rol gameplayer.", 
+        "ContentOne": "I've been working as Store Manager the last seven years and fell in love with Data Analysis and Business Manager Tools. That's why I started to learn coding two years ago.",
+        "ContentTwo": "Love challenges and problem solving. Federated chess player and strategy and rol gameplayer.", 
         "ContentThree": "Looking for my first full-time job as Fullstack Developer."
+    },
+    "Search": "Search",
+    "Skills": "skills",
+    "Projects": "projects",
+    "SkillsFilter": {
+        "SectionTitle": "Search or filter skills",
+        "byName": "by Name",
+        "byType": "by Type"
     }
 }

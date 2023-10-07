@@ -29,7 +29,9 @@ module.exports = {
         'nodeGreen': '#70e000',
         'darkNodeGreen': '#38b000',
         'purple': '#5a189a',
-        'darkPurple': '#3c096c'
+        'darkPurple': '#3c096c',
+        'orange': '#f8961e',
+        'darkOrange': '#f3722c'
       },
       keyframes: {
         appear: {

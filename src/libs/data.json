@@ -4,7 +4,141 @@
         {}
     ],
     "skills": [
-        {},
-        {}
+        {
+            "type": "frontend",
+            "name": "HTML5",
+            "logo": "/logos/html.png",
+            "level": 9
+        },
+        {
+            "type": "frontend",
+            "name": "CSS3",
+            "logo": "/logos/css.png",
+            "level": 6
+        },
+        {
+            "type": "frontend",
+            "name": "JavaScript",
+            "logo": "/logos/js.png",
+            "level": 8
+        },
+        {
+            "type": "library",
+            "name": "jQuery",
+            "logo": "/logos/jquery.png",
+            "level": 3
+        },
+        {
+            "type": "library",
+            "name": "React",
+            "logo": "/logos/react.png",
+            "level": 7
+        },
+        {
+            "type": "superset",
+            "name": "TypeScript",
+            "logo": "/logos/ts.png",
+            "level": 3
+        },
+        {
+            "type": "backend",
+            "name": "NodeJS",
+            "logo": "/logos/nodejs.png",
+            "level": 6
+        },
+        {
+            "type": "framework",
+            "name": "ExpressJS",
+            "logo": "/logos/express.png",
+            "level": 7
+        },
+        {
+            "type": "framework",
+            "name": "NextJS",
+            "logo": "/logos/nextjs.png",
+            "level": 7
+        },
+        {
+            "type": "framework",
+            "name": "Astro",
+            "logo": "/logos/astro.png",
+            "level": 5
+        },
+        {
+            "type": "framework",
+            "name": "Trailwind",
+            "logo": "/logos/tailwind.png",
+            "level": 7
+        },
+        {
+            "type": "backend",
+            "name": "PHP",
+            "logo": "/logos/php.png",
+            "level": 3
+        },
+        {
+            "type": "database",
+            "name": "MongoDB",
+            "logo": "/logos/mongodb.png",
+            "level": 7
+        },
+        {
+            "type": "database",
+            "name": "MySQL",
+            "logo": "/logos/mysql.png",
+            "level": 5
+        },
+        {
+            "type": "database",
+            "name": "PostgreSQL",
+            "logo": "/logos/postgre.png",
+            "level": 4
+        },
+        {
+            "type": "orm",
+            "name": "Prisma",
+            "logo": "/logos/prisma.png",
+            "level": 2
+        },
+        {
+            "type": "desktop",
+            "name": "Electron",
+            "logo": "/logos/electron.png",
+            "level": 2
+        },
+        {
+            "type": "algorithms",
+            "name": "Arrays",
+            "level": 9
+        },
+        {
+            "type": "algorithms",
+            "name": "Linked Lists",
+            "level": 4
+        },
+        {
+            "type": "algorithms",
+            "name": "Trees",
+            "level": 2
+        },
+        {
+            "type": "algorithms",
+            "name": "Stacks and Queues",
+            "level": 4
+        },
+        {
+            "type": "algorithms",
+            "name": "Hash Tables",
+            "level": 8
+        },
+        {
+            "type": "algorithms",
+            "name": "Complexity Analysis"
+        },
+        {
+            "type": "vcs",
+            "name": "Git",
+            "level": 6
+        }
     ]
 }
