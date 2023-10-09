@@ -8,7 +8,7 @@ export default function HomeRightBox() {
   const { t } = useTranslation()
 
   return (
-    <article className='m-4 flex flex-row md:flex-col justify-center items-center w-[35vw] h-[100vh] animate-appear'>
+    <article className='m-4 flex flex-row md:flex-col justify-center items-center w-[35vw] h-[90vh] animate-appear'>
       <h3 className='font-MontserratBlack text-lg p-2'>
         {t('BriefDescription.Title')}
       </h3>

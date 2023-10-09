@@ -11,7 +11,7 @@ export default function Home() {
         <NavBar />
       </header>
 
-      <main className='snap-mandatory snap-y h-screen overflow-y-scroll'>
+      <main className='snap-mandatory snap-y h-[90vh] w-[100vw] overflow-auto'>
         <HomePage />
         <Skills />
         <Projects />

@@ -6,7 +6,7 @@ import LanguageSelector from './LanguageSelector'
 export default function NavBar() {
   const { t } = useTranslation()
   return (
-    <nav className='h-[10vh] w-[100vw] flex justify-end items-center p-8 fixed bg-white text-black'>
+    <nav className='h-[10vh] w-[100vw] flex justify-end items-center p-8 bg-white/0 text-black'>
       <ul className='flex gap-8 items-center font-MontserratRegular'>
         <li className='hover:scale-110 hover:text-reactBlue transition-all duration-200 ease-in-out'>
           <a

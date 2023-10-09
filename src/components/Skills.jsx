@@ -3,6 +3,7 @@
 import { useTranslation } from 'react-i18next'
 import { useState } from 'react'
 import data from '@/libs/data.json'
+import SkillCard from './SkillCard'
 
 export default function Skills() {
   const { t } = useTranslation()
@@ -35,9 +36,9 @@ export default function Skills() {
   return (
     <article
       id='SkillsPage'
-      className='h-[100vh] w-[100vw] snap-center m-auto flex flex-row md:flex-col justify-center items-center bg-gradient-to-r from-JSYellow to-darkJSYellow text-black'>
-      <div className='h-[100vh] w-[70vw] bg-white text-black font-MontserratRegular text-sm flex flex-col justify-center items-center gap-2'>
-        <h1 className='font-MontserratBlack text-2xl text-black'>
+      className='h-[90vh] w-[100vw] snap-center m-auto flex flex-row md:flex-col justify-end items-center bg-gradient-to-r from-JSYellow to-darkJSYellow text-black'>
+      <div className='h-[100%] w-[70vw] bg-white text-black font-MontserratRegular text-sm flex flex-col justify-center items-center gap-2'>
+        <h1 className='font-MontserratBlack text-2xl text-black m-2'>
           {t('SkillsTitle')}
         </h1>
         <search
@@ -46,31 +47,34 @@ export default function Skills() {
           <h4 className='font-MontserratBlack text-white text-lg'>
             {t('SkillsFilter.SectionTitle')}
           </h4>
-          <select
-            defaultValue={'name'}
-            onChange={handleSelect}>
-            <option value='name'>{t('SkillsFilter.byName')}</option>
-            <option value='type'>{t('SkillsFilter.byType')}</option>
-          </select>
-          <input
-            type='text'
-            onChange={handleSearch}
-            value={search}
-          />
+          <div>
+            <select
+              defaultValue={'name'}
+              onChange={handleSelect}>
+              <option value='name'>{t('SkillsFilter.byName')}</option>
+              <option value='type'>{t('SkillsFilter.byType')}</option>
+            </select>
+            <input
+              type='text'
+              onChange={handleSearch}
+              value={search}
+            />
+          </div>
           <small className='font-MontserratRegular text-white'>
             {filterType === 'name'
               ? t('SkillsFilter.SmallIsName')
               : t('SkillsFilter.SmallIsType')}
           </small>
         </search>
-        <main>
-          <ul>
-            {filtered.map((skill, idx) => (
-              <li key={idx}>
-                {skill.name} - at level: {skill.level} from {skill.type} type.
-              </li>
-            ))}
-          </ul>
+        <main className='w-[90%] grid grid-flow-row grid-cols-3 gap-1 overflow-scroll align-middle justify-center m-4'>
+          {filtered.map((skill, idx) => {
+            return (
+              <SkillCard
+                skill={skill}
+                key={idx}
+              />
+            )
+          })}
         </main>
       </div>
     </article>

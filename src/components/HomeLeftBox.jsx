@@ -10,7 +10,7 @@ export default function HomeLeftBox() {
   return (
     <article
       id='HomePage'
-      className='h-[100vh] w-[35vw] snap-center m-4 flex flex-col justify-center items-center animate-appear'>
+      className='h-[90vh] w-[35vw] snap-center m-4 flex flex-col justify-center items-center animate-appear'>
       <Image
         src='/picture.jpg'
         alt='Ivan Rodriguez picture'

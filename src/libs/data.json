@@ -7,19 +7,19 @@
         {
             "type": "frontend",
             "name": "HTML5",
-            "logo": "/logos/html.png",
+            "logo": "/logos/html5.png",
             "level": 9
         },
         {
             "type": "frontend",
             "name": "CSS3",
-            "logo": "/logos/css.png",
+            "logo": "/logos/css3.png",
             "level": 6
         },
         {
             "type": "frontend",
             "name": "JavaScript",
-            "logo": "/logos/js.png",
+            "logo": "/logos/javascript.png",
             "level": 8
         },
         {
@@ -37,7 +37,7 @@
         {
             "type": "superset",
             "name": "TypeScript",
-            "logo": "/logos/ts.png",
+            "logo": "/logos/typescript.png",
             "level": 3
         },
         {
@@ -66,7 +66,7 @@
         },
         {
             "type": "framework",
-            "name": "Trailwind",
+            "name": "Tailwind",
             "logo": "/logos/tailwind.png",
             "level": 7
         },
@@ -91,7 +91,7 @@
         {
             "type": "database",
             "name": "PostgreSQL",
-            "logo": "/logos/postgre.png",
+            "logo": "/logos/postgresql.png",
             "level": 4
         },
         {
@@ -109,35 +109,42 @@
         {
             "type": "algorithms",
             "name": "Arrays",
+            "logo": "/logos/algorithms.png",
             "level": 9
         },
         {
             "type": "algorithms",
             "name": "Linked Lists",
+            "logo": "/logos/algorithms.png",
             "level": 4
         },
         {
             "type": "algorithms",
+            "logo": "/logos/algorithms.png",
             "name": "Trees",
             "level": 2
         },
         {
             "type": "algorithms",
             "name": "Stacks and Queues",
+            "logo": "/logos/algorithms.png",
             "level": 4
         },
         {
             "type": "algorithms",
             "name": "Hash Tables",
+            "logo": "/logos/algorithms.png",
             "level": 8
         },
         {
             "type": "algorithms",
-            "name": "Complexity Analysis"
+            "name": "Complexity Analysis",
+            "logo": "/logos/algorithms.png"
         },
         {
             "type": "vcs",
             "name": "Git",
+            "logo": "/logos/git.png",
             "level": 6
         }
     ]
