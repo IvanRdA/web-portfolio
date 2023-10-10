@@ -22,12 +22,14 @@ export default function Skills() {
   }
 
   const filtered = skills.filter((skill) => {
+    if (search === '') {
+      return skills
+    }
+
     if (filterType === 'name') {
       return skill.name.indexOf(search) !== -1
     } else if (filterType === 'type') {
       return skill.type.indexOf(search) !== -1
-    } else {
-      return skills
     }
   })
 
