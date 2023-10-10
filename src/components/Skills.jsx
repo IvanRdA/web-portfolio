@@ -27,7 +27,7 @@ export default function Skills() {
     }
 
     if (filterType === 'name') {
-      return skill.name.indexOf(search) !== -1
+      return skill.name.indexOf(search) !== -1 || skill.tags === search
     } else if (filterType === 'type') {
       return skill.type.indexOf(search) !== -1
     }

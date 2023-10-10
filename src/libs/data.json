@@ -20,7 +20,8 @@
             "type": "frontend",
             "name": "JavaScript",
             "logo": "/logos/javascript.png",
-            "level": 8
+            "level": 8,
+            "tags": "JS"
         },
         {
             "type": "library",
@@ -38,7 +39,8 @@
             "type": "superset",
             "name": "TypeScript",
             "logo": "/logos/typescript.png",
-            "level": 3
+            "level": 3,
+            "tags": "TS"
         },
         {
             "type": "backend",
