@@ -10,6 +10,7 @@ export default function Skills() {
   const skills = data.skills
   const [search, setSearch] = useState('')
   const [filterType, setFilterType] = useState('name')
+  const [level, setLevel] = useState(1)
 
   const handleSearch = (e) => {
     e.preventDefault()
@@ -37,6 +38,10 @@ export default function Skills() {
       )
     } else if (filterType === 'type') {
       return skill.type.indexOf(search) !== -1
+    } else if (filterType === 'level') {
+      const parsedLevel = parseInt(search)
+
+      return skill.level === parsedLevel
     }
   })
 
@@ -60,6 +65,7 @@ export default function Skills() {
               onChange={handleSelect}>
               <option value='name'>{t('SkillsFilter.byName')}</option>
               <option value='type'>{t('SkillsFilter.byType')}</option>
+              <option value='level'>{t('SkillsFilter.byLevel')}</option>
             </select>
             <input
               type='text'
@@ -70,7 +76,9 @@ export default function Skills() {
           <small className='font-MontserratRegular text-white'>
             {filterType === 'name'
               ? t('SkillsFilter.SmallIsName')
-              : t('SkillsFilter.SmallIsType')}
+              : filterType === 'type'
+              ? t('SkillsFilter.SmallIsType')
+              : t('SkillsFilter.SmallIsLevel')}
           </small>
         </search>
         <main className='w-[90%] grid grid-flow-row grid-cols-3 gap-1 overflow-scroll align-middle justify-center m-4'>

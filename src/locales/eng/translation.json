@@ -24,7 +24,9 @@
         "SectionTitle": "Search skills by name or by type",
         "byName": "by Name",
         "byType": "by Type",
+        "byLevel": "by Level",
         "SmallIsName": "Search by technology name. e.g: JavaScript, NodeJS...",
-        "SmallIsType": "Search by role of technology. e.g: backend, frontend..."
+        "SmallIsType": "Search by role of technology. e.g: backend, frontend...",
+        "SmallIsLevel": "Search based on my skill level. e.g: 7, 8... (from 1 to 10)"
     }
 }

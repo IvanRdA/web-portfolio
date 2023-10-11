@@ -24,7 +24,9 @@
         "SectionTitle": "Busque habilidades por nombre o enfoque",
         "byName": "por Nombre",
         "byType": "por Tipo",
+        "byLevel": "por Nivel",
         "SmallIsName": "Busque por el nombre de la tecnologia. ej: JavaScript, NodeJS...",
-        "SmallIsType": "Busque por el enfoque de la tecnologia. ej: backend, frontend..."
+        "SmallIsType": "Busque por el enfoque de la tecnologia. ej: backend, frontend...",
+        "SmallIsLevel": "Busqueda basada en mi nivel en las tecnologias. ej: 7, 8... (de 1 a 10)"
     }
 }
