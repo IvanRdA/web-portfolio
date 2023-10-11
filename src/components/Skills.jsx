@@ -13,7 +13,8 @@ export default function Skills() {
 
   const handleSearch = (e) => {
     e.preventDefault()
-    setSearch(e.target.value)
+    const query = e.target.value
+    setSearch(query.toLowerCase())
   }
 
   const handleSelect = (e) => {
@@ -27,7 +28,13 @@ export default function Skills() {
     }
 
     if (filterType === 'name') {
-      return skill.name.indexOf(search) !== -1 || skill.tags === search
+      const skillName = skill.name
+      const tagName = skill.tags || ''
+
+      return (
+        skillName.toLowerCase().indexOf(search) !== -1 ||
+        tagName.toLowerCase() === search
+      )
     } else if (filterType === 'type') {
       return skill.type.indexOf(search) !== -1
     }
