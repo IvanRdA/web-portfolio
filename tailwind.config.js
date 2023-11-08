@@ -18,20 +18,36 @@ module.exports = {
         MontserratItalic: ['MontserratItalic', 'sans-serif']
       },
       colors: {
-        'plainBlue': '#00b4d8',
-        'darkPlainBlue': '#0077b6',
-        'JSYellow': '#ffd60a',
-        'darkJSYellow': '#ffc300',
         'reactBlue': '#00bbf9',
         'darkReactBlue': '#00a5cf',
         'carmesi': '#c52233',
         'darkCarmesi': '#a51c30',
-        'nodeGreen': '#70e000',
-        'darkNodeGreen': '#38b000',
-        'purple': '#5a189a',
-        'darkPurple': '#3c096c',
-        'orange': '#f8961e',
-        'darkOrange': '#f3722c'
+        'beige': {
+          '50': '#f9f9ed',
+          '100': '#f5f5dc',
+          '200': '#e5e3a3',
+          '300': '#d6cf6e',
+          '400': '#c9ba46',
+          '500': '#baa538',
+          '600': '#a0852e',
+          '700': '#806328',
+          '800': '#6c5227',
+          '900': '#5d4526',
+          '950': '#352513'
+        },
+        'purple': {
+          '50': '#fbf4ff',
+          '100': '#f6e6ff',
+          '200': '#efd2ff',
+          '300': '#e2aeff',
+          '400': '#d07bff',
+          '500': '#bf49ff',
+          '600': '#ae25f8',
+          '700': '#9815db',
+          '800': '#7f17b2',
+          '900': '#68148f',
+          '950': '#500075'
+        }
       },
       keyframes: {
         appear: {

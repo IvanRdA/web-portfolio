@@ -21,7 +21,7 @@ export default function SkillCard(props) {
   const { skill } = props
 
   return (
-    <article className='bg-gradient-to-r from-reactBlue to-darkReactBlue rounded-tr-lg rounded-bl-lg p-4 m-2 flex flex-col justify-center text-center h-fit'>
+    <article className='bg-gradient-to-r from-purple-900 to-purple-950 rounded-tr-lg rounded-bl-lg p-4 m-2 flex flex-col justify-center text-center h-fit'>
       <Image
         src={skill.logo}
         width={20}
@@ -30,13 +30,13 @@ export default function SkillCard(props) {
         title={skill.name}
         className='m-auto'
       />
-      <h4 className='font-MontserratBlack text-JSYellow text-xl'>
+      <h4 className='font-MontserratBlack text-beige-300 text-xl'>
         {skill.name}
       </h4>
-      <h6 className='font-MontserratItalic text-white text-sm mb-2'>
+      <h6 className='font-MontserratItalic text-beige-200 text-sm mb-2'>
         #{skill.type}
       </h6>
-      <h6 className='font-MontserratRegular text-darkNodeGreen bg-white w-fit m-auto px-1'>
+      <h6 className='font-MontserratRegular text-purple-950 bg-beige-200 w-fit m-auto px-1'>
         <span className={colorByLevel(skill.level)}>{skill.level}</span> / 10
       </h6>
     </article>

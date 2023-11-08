@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <article
       id='ProjectsPage'
-      className='h-[100vh] w-[100vw] snap-center m-auto flex flex-col md:flex-row justify-center items-center bg-gradient-to-r from-nodeGreen to-darkNodeGreen text-black'>
+      className='h-[100vh] w-[100vw] snap-center m-auto flex flex-col md:flex-row justify-center items-center bg-gradient-to-r from-purple-900 to-purple-950 text-beige-200'>
       <h1>{t('ProjectsTitle')}</h1>
     </article>
   )

@@ -48,15 +48,15 @@ export default function Skills() {
   return (
     <article
       id='SkillsPage'
-      className='h-[90vh] w-[100vw] snap-center m-auto flex flex-row md:flex-col justify-end items-center bg-gradient-to-r from-JSYellow to-darkJSYellow text-black'>
-      <div className='h-[100%] w-[70vw] bg-white text-black font-MontserratRegular text-sm flex flex-col justify-center items-center gap-2'>
-        <h1 className='font-MontserratBlack text-2xl text-black m-2'>
+      className='h-[90vh] w-[100vw] snap-center m-auto flex flex-row md:flex-col justify-end items-center bg-gradient-to-r from-purple-900 to-purple-950 text-beige-200'>
+      <div className='h-[100%] w-[70vw] bg-beige-200 text-purple-950 font-MontserratRegular text-sm flex flex-col justify-center items-center gap-2'>
+        <h1 className='font-MontserratBlack text-2xl text-purple-950 m-2'>
           {t('SkillsTitle')}
         </h1>
         <search
           role='search'
-          className='bg-reactBlue w-[100%] text-center p-4'>
-          <h4 className='font-MontserratBlack text-white text-lg'>
+          className='bg-purple-950 w-[100%] text-center p-4'>
+          <h4 className='font-MontserratBlack text-beige-200 text-lg'>
             {t('SkillsFilter.SectionTitle')}
           </h4>
           <div>
@@ -73,7 +73,7 @@ export default function Skills() {
               value={search}
             />
           </div>
-          <small className='font-MontserratRegular text-white'>
+          <small className='font-MontserratRegular text-beige-200'>
             {filterType === 'name'
               ? t('SkillsFilter.SmallIsName')
               : filterType === 'type'
